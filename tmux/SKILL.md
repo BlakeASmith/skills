@@ -61,6 +61,16 @@ tmux split-window -h -t %<id>
 tmux split-window -v -t %<id>
 ```
 
+## Resizing Panes
+Resize a pane in a specific direction by a given number of cells.
+```bash
+# Directions: U (Up), D (Down), L (Left), R (Right)
+tmux resize-pane -t %<id> -U 5   # Up by 5
+tmux resize-pane -t %<id> -D 10  # Down by 10
+tmux resize-pane -t %<id> -L 2   # Left by 2
+tmux resize-pane -t %<id> -R 20  # Right by 20
+```
+
 ## Deleting Sessions and Panes
 Kill a session.
 ```bash
