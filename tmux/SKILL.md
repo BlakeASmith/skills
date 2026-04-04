@@ -1,3 +1,8 @@
+---
+name: tmux-operating
+description: Manage and interact with tmux sessions, windows, and panes. Use when the user wants to list, view, or control tmux environments.
+---
+
 # Tmux Skill
 
 Instructions for AI agents to interact with tmux sessions, windows, and panes.
